@@ -57,7 +57,7 @@ For more details, refer to the notebook linked below.
 
 #### Next steps
 One of the biggest issues we encountered was that the models were unable to effectively learn from the small dataset. Therefore, I consider this a pilot study, as multiple improvements can be made. The following list are future considersations to take into account.
-1. Find a larger dataset to enable models to effectively learn and generalize well to unseen data.
+1. Find a larger dataset to enable models to learn more effectively and generalize well to unseen data.
   
 2. Revisit hyperparameter tuning and data preprocessing steps to enhance cross-validation score and performance metrics.
   
@@ -65,7 +65,7 @@ One of the biggest issues we encountered was that the models were unable to effe
 
 #### Link to notebook
 
-- [Final Report Notebook](https://github.com/ahleung2/Prediction-of-Breast-Cancer-Recurrence/blob/main/Leung_Aaron%20Prediction%20of%20Breast%20Cancer%20Recurrence.ipynb)
+- [Final Report Notebook]()
 
 
 
