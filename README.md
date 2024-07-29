@@ -57,7 +57,7 @@ For more details, refer to the notebook linked below.
 
 #### Next steps
 One of the biggest issues we encountered was that the models were unable to effectively learn from the small dataset. Therefore, I consider this a pilot study, as multiple improvements can be made. The following list are future considersations to take into account.
-1. Find a larger dataset to enable models to effecitvely learn and generalize well to unseen data.
+1. Find a larger dataset to enable models to effectively learn and generalize well to unseen data.
   
 2. Revisit hyperparameter tuning and data preprocessing steps to enhance cross-validation score and performance metrics.
   
