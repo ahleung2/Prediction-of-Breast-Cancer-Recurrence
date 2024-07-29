@@ -65,7 +65,7 @@ One of the biggest issues we encountered was that the models were unable to effe
 
 #### Link to notebook
 
-- [Final Report Notebook]()
+- [Final Report Notebook](https://github.com/ahleung2/Prediction-of-Breast-Cancer-Recurrence/blob/main/Leung_Aaron%20Prediction%20of%20Breast%20Cancer%20Recurrence.ipynb)
 
 
 
