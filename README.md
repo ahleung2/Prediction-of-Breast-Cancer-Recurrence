@@ -48,12 +48,10 @@ _Model Evaluation and Hyperparameter Tuning_
 
 #### Results
 1. _Small Dataset Size_: The dataset contains only 286 samples which can significantly impact each model's ability to generalize well to unseen data. This limited size often leads to overfiting which we observed in the four models that were trained.
-  
+
 2. _Lack of significant improvement when using GridSearchCV_: Hyperparameter tuning with GridSearchCV did not yield substantial improvements in our model's performance. This is likely due to the model's inability to effectively learn from the small dataset. Among the models, KNeighbors and Support Vector Machines showed the most improvement in terms of recall on the test set.
 
-3. _Feature importance_: Despite the models' suboptimal performance, we were still able to gain insights into which features are important for predicting recurrence. In Logistic Regression model, receiving irradiation, high lymph node involvement and a higher degree of malignancy were strong positive predictors. In the Decision Tree model, key predictors included tumor's location, receiving irradiation, absence of extracapsular extension, and the degree of malignancy. Patients with above-mentioned high risk features should be more closely monitored to detect recurrence early.
-
-For more details, refer to the notebook linked below.
+3. _Feature importance_: Despite the models' suboptimal performance, we were still able to gain insights into which features are important for predicting recurrence. In Logistic Regression model, receiving irradiation, high lymph node involvement and a higher degree of malignancy were strong positive predictors. In the Decision Tree model, key predictors included degree of malignancy and tumor location. Similar to logistic regression, other important predicts iclude receiving irradiation and high lymph node involvement. Patients with above-mentioned high risk features should be more closely monitored to detect recurrence early.
 
 #### Next steps
 One of the biggest issues we encountered was that the models were unable to effectively learn from the small dataset. Therefore, I consider this a pilot study, as multiple improvements can be made. The following list are future considersations to take into account.
